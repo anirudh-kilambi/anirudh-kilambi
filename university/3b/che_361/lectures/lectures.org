@@ -23,4 +23,4 @@ Given the reaction:
 
 This is an overall reaction, how do we determine whether or not it's a redox reaction?
     - Check for changes in oxidation states of atoms participating in the reaction.
-    - If it were a redox reaction, the */oxidation state must increase/* for one atom and */decrease for another/*
+    - If it were a redox reaction, the */oxidation state must increase/* for one atom and /*decrease for another*/

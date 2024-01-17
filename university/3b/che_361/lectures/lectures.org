@@ -1,0 +1,26 @@
+#+title: CHE 361 Lectures
+#+date: 01/2024 - 04/2024
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://seanzhang.ca/org.css"/>
+
+* Faraday's Laws
+- relates electronic charge transferred to mass reacted
+
+** Faraday's 1st and 2nd Laws of Electrolysis
+
+*** 1st Law
+    - Mass produced is directly proportional to the total charge passed
+*** 2nd Law
+    - Given two metals formed with the same amount of charge
+    - The ratio of the masses of these two metals is only dependent on the identity of the two metals
+      - Upon the conception of the idea of molecular weight, the ratio was found to be the ratio of their
+        equivalent weights
+** Examples
+*** Applying Faraday's Laws with a Lead acid battery reaction
+Given the reaction:
+\begin{equation}
+    Pb_{(s)} + PbO_{2,(s)} + 2HSO_{4,(aq)}^{-} + 2H^{+}_{(aq)} -> 2PbSO_{4, (s)} + 2H_{2}O_{(l)}
+\end{equation}
+
+This is an overall reaction, how do we determine whether or not it's a redox reaction?
+    - Check for changes in oxidation states of atoms participating in the reaction.
+    - If it were a redox reaction, the */oxidation state must increase/* for one atom and /*decrease for another*/

@@ -1,0 +1,43 @@
+#+title: ChE 341 Lectures
+#+date: 01/2024 - 04/2024
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://seanzhang.ca/org.css"/>
+
+* FOPDT Regression
+** Least Square Regression
+- Data --> input/output pairs
+- Model /f/ with parameters /p/, that predicts output
+  \begin{centering}
+    \begin{function}
+    y_{pred,i} = f(u_{i} ; x)
+    \end{function}
+  \end{centering}
+
+** Optimizing with scipy
+- Define an objective function /objective/
+  - Takes vector variable /x/ as input
+  - Returns scalar objective value
+- Define an initial guess, \x0\
+- Provide variable bounds if possible
+
+** FOPDT Regression
+- Given dynamic process data
+  {(t_{i}, u_{i}, y_{data, i}) : i = 1, 2, ..., n}
+  where:
+    t_{i} = time data
+    u_{i} = some input data
+    y_{data, i} = output data
+- Create a function to integrate FOPDT model that uses the data
+  - Inputs are parameters, outputs are the predictions at the data time points
+  \begin{centering}
+    \begin{function}
+    y_{pred} = G_{fopdt}(K_{p}, \tau_{p}, \Theta_{p})
+    \end{function}
+  \end{centering}
+
+- Minimize the SSE between the predictions and the data
+
+  \begin{centering}
+    \begin{function}
+
+    \end{function}
+  \end{centering}

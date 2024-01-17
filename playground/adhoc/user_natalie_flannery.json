@@ -1,0 +1,21 @@
+{
+    "db_object_type": "user",
+    "db_object_name": "flannn01",
+    "config": {
+        "default_role": "role_olivia_readonly",
+        "other_roles": ["dataops_all_db_read_role"],
+        "password": null,
+        "login_name": "flann01",
+        "display_name": null,
+        "first_name": "Natalie",
+        "middle_name": null,
+        "last_name": "Flannery",
+        "email": "﻿﻿Natalie.Flannery@compass-usa.com",
+        "disabled": null,
+        "default_warehouse": "CGC_WH",
+        "default_namespace": null,
+        "comment": null,
+        "network_policy": "OPEN_NETWORK_POLICY"
+    },
+    "comment": "User for Natalie Flannery"
+}

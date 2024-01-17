@@ -1,0 +1,11 @@
+{
+    "source_snowflake_schema" : "TIME_DIMENSION",
+    "source_snowflake_table" : "DIMYEAR_V",
+    "catalog_table" : "year",
+    "catalog_database" : "cantaloupe",
+    "primary_keys" : ["yearkey"],
+    "snowflake_query" : "select * from {database}.{schema}.{table}",
+    "snowflake_database" : "DATAOPS_SOURCE",
+    "snowflake_schema" : "cantaloupe",
+    "snowflake_table" : "year"
+}

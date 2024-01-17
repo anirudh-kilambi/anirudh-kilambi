@@ -1,0 +1,28 @@
+{
+  "tags": [
+    {
+      "valueSource": "opc",
+      "opcItemPath": "ns\u003d1;s\u003d[ARTNS]IN_HMI.BIT[0]",
+      "dataType": "Int4",
+      "name": "BIT_0_",
+      "tagType": "AtomicTag",
+      "opcServer": "Ignition OPC UA Server"
+    },
+    {
+      "valueSource": "opc",
+      "opcItemPath": "ns\u003d1;s\u003d[ARTNS]IN_HMI.BIT[0].0",
+      "dataType": "Int4",
+      "name": "BIT_0_0",
+      "tagType": "AtomicTag",
+      "opcServer": "Ignition OPC UA Server"
+    },
+    {
+      "valueSource": "opc",
+      "opcItemPath": "ns\u003d1;s\u003d[ARTNS]IN_HMI.BIT[1]",
+      "dataType": "Int4",
+      "name": "BIT_1_",
+      "tagType": "AtomicTag",
+      "opcServer": "Ignition OPC UA Server"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "source_snowflake_schema" : "public",
+    "source_snowflake_table" : "RECEIVEDELIVERYORDERFACT_V",
+    "catalog_table" : "receive_delivery_order",
+    "catalog_database" : "cantaloupe",
+    "primary_keys" : ["sourcedefineduniquekey"],
+    "snowflake_query" : "select * from {database}.{schema}.{table} where updatedatetime > '{date}'",
+    "snowflake_database" : "DATAOPS_SOURCE",
+    "snowflake_schema" : "cantaloupe",
+    "snowflake_table" : "receive_delivery_order"
+}

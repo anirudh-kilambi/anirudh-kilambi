@@ -1,1 +1,0 @@
-"select get_ddl('view', 'DATAOPS_EDW.DATASTORE.V_MOBILE_ORDERS')"

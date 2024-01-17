@@ -1,2 +1,0 @@
-"select get_ddl('view', 'CDL_SHARE.POS_ORDERS.MOBILE_ORDERS'), get_ddl('view', 'CDL_SHARE.POS_ORDERS.POS_CA')"
-select * 

@@ -1,0 +1,75 @@
+% Created 2024-01-17 Wed 14:16
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{Kilambi}
+\date{01/2024 - 04/2024}
+\title{ChE 341 Lectures}
+\hypersetup{
+ pdfauthor={Kilambi},
+ pdftitle={ChE 341 Lectures},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 29.1 (Org mode 9.7)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\section{FOPDT Regression}
+\label{sec:orgd53fd3d}
+\subsection{Least Square Regression}
+\label{sec:org34028ed}
+\begin{itemize}
+\item Data --> input/output pairs
+\item Model \emph{f} with parameters \emph{p}, that predicts output
+\begin{centering}
+  \begin{function}
+  y_{pred,i} = f(u_{i} ; x)
+  \end{function}
+\end{centering}
+\end{itemize}
+\subsection{Optimizing with scipy}
+\label{sec:org56d5b97}
+\begin{itemize}
+\item Define an objective function \emph{objective}
+\begin{itemize}
+\item Takes vector variable \emph{x} as input
+\item Returns scalar objective value
+\end{itemize}
+\item Define an initial guess, \emph{x0}
+\item Provide variable bounds if possible
+\end{itemize}
+\subsection{FOPDT Regression}
+\label{sec:org4123d0b}
+\begin{itemize}
+\item Given dynamic process data
+\{(t\textsubscript{i}, u\textsubscript{i}, y\textsubscript{data, i}) : i = 1, 2, \ldots{}, n\}
+where:
+  t\textsubscript{i} = time data
+  u\textsubscript{i} = some input data
+  y\textsubscript{data, i} = output data
+\item Create a function to integrate FOPDT model that uses the data
+\begin{itemize}
+\item Inputs are parameters, outputs are the predictions at the data time points
+\end{itemize}
+\begin{centering}
+#   \begin{function}
+  y_{pred} = G_{fopdt}(K_{p}, \tau_{p}, \Theta_{p})
+#   \end{function}
+\end{centering}
+
+\item Minimize the SSE between the predictions and the data
+\end{itemize}
+\end{document}

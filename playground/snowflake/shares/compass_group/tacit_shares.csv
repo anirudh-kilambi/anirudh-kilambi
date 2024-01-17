@@ -1,0 +1,7 @@
+* SnowSQL * v1.2.28
+Type SQL statements or !help
+"created_on","name","reserved","database_name","schema_name","owner","comment","text","is_secure","is_materialized","owner_role_type","change_tracking"
+"2023-10-04 06:32:59.208 -0700","CUSTOMERRESTAURANTFEEDBACK","","CDL_SHARE","TACIT","ACCOUNTADMIN","","create or replace secure view CDL_SHARE.TACIT.CUSTOMERRESTAURANTFEEDBACK as (select * from DATAOPS_SOURCE.TACIT.CUSTOMERRESTAURANTFEEDBACK);","true","false","ROLE","OFF"
+"2023-10-04 06:33:02.615 -0700","RESTAURANTRATINGSCALE","","CDL_SHARE","TACIT","ACCOUNTADMIN","","create or replace secure view CDL_SHARE.TACIT.RESTAURANTRATINGSCALE as (select * from DATAOPS_SOURCE.TACIT.RESTAURANTRATINGSCALE);","true","false","ROLE","OFF"
+2 Row(s) produced. Time Elapsed: 0.126s
+Goodbye!

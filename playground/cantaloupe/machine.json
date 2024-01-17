@@ -1,0 +1,209 @@
+{
+    "fields": [
+        {
+            "metadata": {},
+            "name": "MACHINEKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "OPERATORKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "LOCATIONKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "ROUTEKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "MACHINEID",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "ASSETID",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "CLASS",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "MAKE",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "MODEL",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "TYPE",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "PLACE",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "DATEPLACED",
+            "nullable": true,
+            "type": "timestamp"
+        },
+        {
+            "metadata": {},
+            "name": "DEVICEID",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "ASSETTYPE",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "MICROMARKETNAME",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "DEVICETYPE",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "LINEOFBUSINESS",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "HASCANTALOUPETELEMETER",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "DEPLOYED",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "SUBROUTE",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "DELETED",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "ROWEFFECTIVEDATE",
+            "nullable": false,
+            "type": "date"
+        },
+        {
+            "metadata": {},
+            "name": "ROWEXPIRYDATE",
+            "nullable": false,
+            "type": "date"
+        },
+        {
+            "metadata": {},
+            "name": "CURRENTROWINDICATOR",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "COMMISSIONPLANNAME",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "TAXJURISDICTIONNAME",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "ISCOLDFOOD",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "SOURCEDEFINEDUNIQUEKEY",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "MANAGEMENTCODE",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "MANAGEMENTACCOUNTNAME",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "MANAGEMENTCOMPANYNAME",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "CREATEDDATE",
+            "nullable": false,
+            "type": "date"
+        },
+        {
+            "metadata": {},
+            "name": "PRICINGPLANNAME",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata" : {},
+            "name" : "etl_extract_timestamp",
+            "nullable" : false,
+            "type" : "timestamp"
+        }
+    ],
+    "type": "struct"
+}

@@ -1,0 +1,119 @@
+{
+    "fields": [
+        {
+            "metadata": {},
+            "name": "COILKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "OPERATORKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "COILID",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "MACHINEKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "ITEMKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "COILNAME",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "COILGROUPNAME",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "CAPACITY",
+            "nullable": true,
+            "type": "decimal(10,2)"
+        },
+        {
+            "metadata": {},
+            "name": "PAR",
+            "nullable": true,
+            "type": "decimal(10,2)"
+        },
+        {
+            "metadata": {},
+            "name": "DEPLETIONLEVEL",
+            "nullable": true,
+            "type": "decimal(10,2)"
+        },
+        {
+            "metadata": {},
+            "name": "DESIREDVENDPRICE",
+            "nullable": true,
+            "type": "decimal(10,2)"
+        },
+        {
+            "metadata": {},
+            "name": "ROWINDEX",
+            "nullable": true,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "COLUMNINDEX",
+            "nullable": true,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "ROWEFFECTIVEDATE",
+            "nullable": false,
+            "type": "timestamp"
+        },
+        {
+            "metadata": {},
+            "name": "ROWEXPIRYDATE",
+            "nullable": false,
+            "type": "timestamp"
+        },
+        {
+            "metadata": {},
+            "name": "CURRENTROWINDICATOR",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "DELETED",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "SOURCEDEFINEDUNIQUEKEY",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata" : {},
+            "name" : "etl_extract_timestamp",
+            "nullable" : false,
+            "type" : "timestamp"
+        }
+    ],
+    "type": "struct"
+}

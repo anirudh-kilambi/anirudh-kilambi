@@ -1,0 +1,227 @@
+{
+    "fields": [
+        {
+            "metadata": {},
+            "name": "OPERATORKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "BRANCHKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "CUSTOMERKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "LOCATIONKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "MACHINEKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "LINEOFBUSINESSKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "MICROMARKETKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "ITEMKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "TARGETDELIVERYDATEKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "PICKDATEKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "DELIVERYDATEKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "REASONFORSCHEDULE",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "HASPOGCHANGE",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "ORDERQUANTITY",
+            "nullable": false,
+            "type": "decimal(10,0)"
+        },
+        {
+            "metadata": {},
+            "name": "PICKQUANTITY",
+            "nullable": false,
+            "type": "decimal(10,0)"
+        },
+        {
+            "metadata": {},
+            "name": "DELIVEREDQUANTITY",
+            "nullable": false,
+            "type": "decimal(10,0)"
+        },
+        {
+            "metadata": {},
+            "name": "SPOILQUANTITY",
+            "nullable": false,
+            "type": "decimal(10,0)"
+        },
+        {
+            "metadata": {},
+            "name": "REMOVEQUANTITY",
+            "nullable": false,
+            "type": "decimal(10,0)"
+        },
+        {
+            "metadata": {},
+            "name": "CALCULATEDCLOSEINVENTORYQUANTITY",
+            "nullable": false,
+            "type": "decimal(10,0)"
+        },
+        {
+            "metadata": {},
+            "name": "OBSERVEDINVENTORYQUANTITY",
+            "nullable": false,
+            "type": "decimal(10,0)"
+        },
+        {
+            "metadata": {},
+            "name": "CLOSEINVENTORYQUANTITY",
+            "nullable": false,
+            "type": "decimal(10,0)"
+        },
+        {
+            "metadata": {},
+            "name": "CAPACITY",
+            "nullable": false,
+            "type": "decimal(10,0)"
+        },
+        {
+            "metadata": {},
+            "name": "PAR",
+            "nullable": false,
+            "type": "decimal(10,0)"
+        },
+        {
+            "metadata": {},
+            "name": "DEPLETIONQUANTITY",
+            "nullable": false,
+            "type": "decimal(10,0)"
+        },
+        {
+            "metadata": {},
+            "name": "DEPLETEDCOILQUANTITY",
+            "nullable": false,
+            "type": "decimal(10,0)"
+        },
+        {
+            "metadata": {},
+            "name": "NUMBEROFCOIL",
+            "nullable": false,
+            "type": "decimal(10,0)"
+        },
+        {
+            "metadata": {},
+            "name": "COILOOS",
+            "nullable": false,
+            "type": "decimal(10,0)"
+        },
+        {
+            "metadata": {},
+            "name": "WASDEPLETED",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "WASOOS",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "SEEDSOFTDELETED",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "SEEDHARDDELETED",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "SEEDUNIQUEKEY",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "SOURCEDEFINEDUNIQUEKEY",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "INSERTDATETIME",
+            "nullable": true,
+            "type": "timestamp"
+        },
+        {
+            "metadata": {},
+            "name": "UPDATEDATETIME",
+            "nullable": true,
+            "type": "timestamp"
+        },
+        {
+            "metadata": {},
+            "name": "INVENTORYOBSERVED",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata" : {},
+            "name" : "etl_extract_timestamp",
+            "nullable" : false,
+            "type" : "timestamp"
+        }
+    ],
+    "type": "struct"
+}

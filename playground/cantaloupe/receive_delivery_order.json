@@ -1,0 +1,161 @@
+{
+    "fields": [
+        {
+            "metadata": {},
+            "name": "OPERATORKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "BRANCHKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "CUSTOMERKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "LOCATIONKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "MACHINEKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "ITEMKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "ITEMPACKKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "ORDERDATEKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "REQUESTEDSHIPDATEKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "ORDERREFERENCENUMBER",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "ORDERLINENUMBER",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "ORDERSOURCE",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "DELIVERYTERMS",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "DELIVERED",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "ORDERLINEQUANTITY",
+            "nullable": false,
+            "type": "decimal(10,0)"
+        },
+        {
+            "metadata": {},
+            "name": "ORDERLINEPRICE",
+            "nullable": false,
+            "type": "decimal(10,2)"
+        },
+        {
+            "metadata": {},
+            "name": "ORDERLINEEXTENDEDPRICE",
+            "nullable": false,
+            "type": "decimal(10,2)"
+        },
+        {
+            "metadata": {},
+            "name": "PACKREMOVED",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "SEEDSOFTDELETED",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "SEEDHARDDELETED",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "SEEDUNIQUEKEY",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "CREATEDBYUSERNAME",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "SOURCEDEFINEDUNIQUEKEY",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "INSERTDATETIME",
+            "nullable": true,
+            "type": "timestamp"
+        },
+        {
+            "metadata": {},
+            "name": "UPDATEDATETIME",
+            "nullable": true,
+            "type": "timestamp"
+        },
+        {
+            "metadata" : {},
+            "name" : "etl_extract_timestamp",
+            "nullable" : false,
+            "type" : "timestamp"
+        }
+    ],
+    "type": "struct"
+}

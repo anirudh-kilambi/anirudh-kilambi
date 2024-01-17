@@ -1,0 +1,317 @@
+{
+    "fields": [
+        {
+            "metadata": {},
+            "name": "OPERATORKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "BRANCHKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "CUSTOMERKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "LOCATIONKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "LINEOFBUSINESSKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "MACHINEKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "MICROMARKETKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "ROUTEKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "DRIVERNAME",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "CREATEDUTCDATETIME",
+            "nullable": true,
+            "type": "timestamp"
+        },
+        {
+            "metadata": {},
+            "name": "SCHEDULELOCKTIMESTAMP",
+            "nullable": true,
+            "type": "timestamp"
+        },
+        {
+            "metadata": {},
+            "name": "SCHEDULECREATEDBYUSERNAME",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "DELIVERYDATEKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "SCHEDULETYPE",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "REASONFORSCHEDULING",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "SCHEDULEDELETED",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "MACHINEREMOVEDFROMSCHEDULE",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "MANUALLYADDED",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "INVENTORYNEEDED",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "COLLECTIONNEEDED",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "SALESTHRESHOLDTRIGGERED",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "DEPLETIONCOUNTTRIGGERED",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "MAXDAYSTRIGGERED",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "PULLEDIN",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "LEADMACHINEKEY",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "MOVEDFROMANOTHERSCHEDULE",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "VISITED",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "MOVEDTONEXTSCHEDULE",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "CURRENTSALESAMOUNT",
+            "nullable": false,
+            "type": "decimal(38,2)"
+        },
+        {
+            "metadata": {},
+            "name": "PROJECTEDSALESAMOUNT",
+            "nullable": false,
+            "type": "decimal(38,2)"
+        },
+        {
+            "metadata": {},
+            "name": "MAXSALESAMOUNT",
+            "nullable": false,
+            "type": "decimal(38,2)"
+        },
+        {
+            "metadata": {},
+            "name": "CURRENTDEPLETEDCOUNT",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "PROJECTEDDEPLETEDCOUNT",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "MAXDEPLETEDCOUNT",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "CURRENTSERVICEINTERVAL",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "PROJECTEDSERVICEINTERVAL",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "MAXSERVICEINTERVAL",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "CURRENTSALESQUANTITY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "PROJECTEDSALESQUANTITY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "MAXSALESQUANTITY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "SEEDUNIQUEKEY",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "INSERTDATETIME",
+            "nullable": false,
+            "type": "timestamp"
+        },
+        {
+            "metadata": {},
+            "name": "UPDATEDATETIME",
+            "nullable": false,
+            "type": "timestamp"
+        },
+        {
+            "metadata": {},
+            "name": "SOURCEDEFINEDUNIQUEKEY",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "SCHEDULEDATEKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "DYNAMICDEPLETIONTYPE",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "LASTRESTOCKUTCDATETIME",
+            "nullable": false,
+            "type": "timestamp"
+        },
+        {
+            "metadata": {},
+            "name": "LOCKEDUTCDATETIME",
+            "nullable": false,
+            "type": "timestamp"
+        },
+        {
+            "metadata": {},
+            "name": "VISITUTCDATETIME",
+            "nullable": false,
+            "type": "timestamp"
+        },
+        {
+            "metadata": {},
+            "name": "CREATEDDATETIME",
+            "nullable": false,
+            "type": "timestamp"
+        },
+        {
+            "metadata": {},
+            "name": "LASTRESTOCKDATETIME",
+            "nullable": false,
+            "type": "timestamp"
+        },
+        {
+            "metadata" : {},
+            "name" : "etl_extract_timestamp",
+            "nullable" : false,
+            "type" : "timestamp"
+        }
+    ],
+    "type": "struct"
+}

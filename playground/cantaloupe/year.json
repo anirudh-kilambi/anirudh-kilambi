@@ -1,0 +1,23 @@
+{
+  "fields": [
+    {
+      "metadata": {},
+      "name": "YEARKEY",
+      "nullable": true,
+      "type": "decimal(38,0)"
+    },
+    {
+      "metadata": {},
+      "name": "YEARID",
+      "nullable": true,
+      "type": "decimal(38,0)"
+    },
+    {
+      "metadata": {},
+      "name": "DISPLAYYEARID",
+      "nullable": true,
+      "type": "string"
+    }
+  ],
+  "type": "struct"
+}

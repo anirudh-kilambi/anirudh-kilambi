@@ -1,0 +1,137 @@
+{
+    "fields": [
+        {
+            "metadata": {},
+            "name": "ITEMKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "OPERATORKEY",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "ITEMID",
+            "nullable": false,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "CODE",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "NAME",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "CATEGORY",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "MANUFACTURER",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "COMMISSIONCATEGORY",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "TAXCATEGORY",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "DEPOSITCATEGORY",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "FINANCECATEGORY",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "UNITCOST",
+            "nullable": true,
+            "type": "decimal(38,2)"
+        },
+        {
+            "metadata": {},
+            "name": "SIZE",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "COUNT",
+            "nullable": true,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "SHELFLIFE",
+            "nullable": true,
+            "type": "decimal(38,0)"
+        },
+        {
+            "metadata": {},
+            "name": "ROWEFFECTIVEDATE",
+            "nullable": false,
+            "type": "date"
+        },
+        {
+            "metadata": {},
+            "name": "ROWEXPIRYDATE",
+            "nullable": false,
+            "type": "date"
+        },
+        {
+            "metadata": {},
+            "name": "CURRENTROWINDICATOR",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "DELETED",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "SOURCEDEFINEDUNIQUEKEY",
+            "nullable": false,
+            "type": "string"
+        },
+        {
+            "metadata": {},
+            "name": "ISINVOICEONLY",
+            "nullable": true,
+            "type": "string"
+        },
+        {
+            "metadata" : {},
+            "name" : "etl_extract_timestamp",
+            "nullable" : false,
+            "type" : "timestamp"
+        }
+    ],
+    "type": "struct"
+}

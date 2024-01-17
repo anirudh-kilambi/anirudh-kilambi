@@ -1,0 +1,47 @@
+{
+  "fields": [
+    {
+      "metadata": {},
+      "name": "MONTHKEY",
+      "nullable": true,
+      "type": "decimal(38,0)"
+    },
+    {
+      "metadata": {},
+      "name": "YEARKEY",
+      "nullable": true,
+      "type": "decimal(38,0)"
+    },
+    {
+      "metadata": {},
+      "name": "QUARTERKEY",
+      "nullable": true,
+      "type": "decimal(38,0)"
+    },
+    {
+      "metadata": {},
+      "name": "MONTHYEARID",
+      "nullable": true,
+      "type": "decimal(38,0)"
+    },
+    {
+      "metadata": {},
+      "name": "MONTHID",
+      "nullable": true,
+      "type": "decimal(38,0)"
+    },
+    {
+      "metadata": {},
+      "name": "MONTHYEARNAME",
+      "nullable": true,
+      "type": "string"
+    },
+    {
+      "metadata": {},
+      "name": "MONTHNAME",
+      "nullable": true,
+      "type": "string"
+    }
+  ],
+  "type": "struct"
+}
